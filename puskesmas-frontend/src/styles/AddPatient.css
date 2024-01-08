@@ -1,0 +1,48 @@
+
+.container {
+  background-color: #8ee4af; /* Softgreen background color */
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #2980b9; /* Blue button color */
+  color: #ffffff; /* White text color */
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3498db; /* Darker blue on hover */
+}
+
+p {
+  margin-top: 10px;
+}
+
+.link-button {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #27ae60; /* Green button color */
+  color: #ffffff; /* White text color */
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background-color: #2ecc71; /* Darker green on hover */
+}

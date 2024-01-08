@@ -1,0 +1,54 @@
+/* src/components/styles/PatientList.css */
+body {
+    background-color: #c1ffcc; /* softgreen background color */
+    color: black; /* black text color */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333; /* dark background color for table header */
+    color: white; /* white text color for table header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: white; /* white background color for even rows */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f2f2f2; /* light background color for odd rows */
+  }
+  
+  button {
+    background-color: #333; /* black button background color */
+    color: white; /* white button text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555; /* darker background color on hover */
+  }
+  
